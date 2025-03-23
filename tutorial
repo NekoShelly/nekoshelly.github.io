@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portale.html</title>
+    <style>
+    div#header {
+        float:none;
+        width:67em;
+        height:10em;
+        margin:3em;
+        border:solid 0.5em black;
+        background-color:rgb(255, 127, 39);
+        }
+    div#left {
+        float:left;
+        width:5em;
+        height:20em;
+        margin:0em;
+        margin-left:26em;
+        border:solid 0.5em black;
+        background-color:rgb(154, 217, 234);
+        }
+    div#right {
+        float:right;
+        width:5em;
+        height:20em;
+        margin:0em;
+        margin-right:26em;
+        border:solid 0.5em black;
+        background-color:rgb(163, 73, 163);
+        }
+    div#article {
+        float:none;
+        width:45em;
+        height:20em;
+        margin:3em;
+        border:solid 0.5em black;
+        background-color:rgb(112, 146, 191);
+        }
+    div#footer {
+        float:none;
+        width:67em;
+        height:7em;
+        margin:3em;
+        border:solid 0.5em rgb(255, 127, 39);
+        background-color:rgb(181, 229, 29);
+        }
+    </style>
+</head>
+<body>
+     <center><div id="header"></div></center>
+    <div id="left"></div>
+    <div id="right"></div>
+    <center><div id="article"></div></center>
+    <center><div id="footer"></div></center>
+</body>
+</html>
